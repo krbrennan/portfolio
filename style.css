@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#section_1 {
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top:0;
+  background-image: url(assets/sunset.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+}
+
+span {
+  display: table;
+  margin: 0 auto;
+}
+
+#name {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  align-content: center;
+}
+
+#typed {
+  color: white;
+  font-size: 500%;
+  justify-content: center;
+  padding-top: 16%;
+  text-shadow: 2px 2px 2px black;
+  /* box-shadow: 2px 2px 2px black; */
+}
+#type-name {
+  color: white;
+  font-size: 500%;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+#navbar {
+  border: 0;
+  background-color: #303030;
+  border-radius: 0;
+  margin-bottom: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav_links {
+  display: flex;
+  margin: 0;
+  text-decoration: none;
+}
+.nav_links li {
+  float: right;
+  display: inline-block;
+  margin-top: 1em;
+}
+.nav_links li a {
+  margin-right: 3em;
+  float: right;
+  padding: 0 15.5px;
+  color: wheat;
+  text-decoration: none;
+  text-align: center;
+}
+/* #last_nav_link {
+  position: absolute;
+  right: 0;
+} */
+.nav_links li a:hover {
+  cursor: pointer;
+  color: #FF9D5C;
+  transform: scale(2,2);
+}
+nav.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/*-----PROJECTS  ------*/
+/*-----  --------------*/
+/*-----  --------------*/
+/*-----  --------------*/
+
+
+
+#project-showcase {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.column {
+  flex-basis: 100%;
+}
+.box {
+  text-align: center;
+  margin: 3em;
+}
+
+
+
+
+
+
+
+/*-----FOOTER  --------*/
+/*-----  --------------*/
+/*-----  --------------*/
+/*-----  --------------*/
+#footer {
+  height: 150px;
+  width: 100vw;
+  background: black;
+}
+.footer {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#link {
+  display: table;
+  margin: 0 auto;
+  padding: 2em;
+  align-content: center;
+  height: 100%;
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  cursor: pointer;
+  color: blue;
+}
