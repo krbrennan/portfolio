@@ -35,13 +35,17 @@ span {
   padding-top: 16%;
   text-shadow: 2px 2px 2px black;
   /* font-family: Lobster; */
-  font-family: Lato;
+  letter-spacing: -3px;
+  font-family: 'Lato';
   font-weight: 700;
 }
 
 #type-name {
   /* font-family: Lobster; */
-  font-family: Lato;
+  letter-spacing: -3px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato';
   font-weight: 700;
   color: white;
   font-size: 500%;
@@ -125,18 +129,25 @@ nav.sticky {
   padding-top: 6em;
   height: 100%;
   width: 100vw;
-  background: linear-gradient(to bottom left, #e0e0e0, white, white);
-  /* background: -webkit-linear-gradient(-41deg, rgb(108, 182, 248), rgb(78, 98, 117)); */
-  /* background: linear-gradient(-41deg, rgb(108, 182, 248), rgb(78, 98, 117)); */
+  /* background: linear-gradient(to bottom left, #e0e0e0, white, white); */
+  background: -webkit-radial-gradient(rgb(100, 173, 239), rgb(170, 203, 235));
+  background: radial-gradient(rgb(100, 173, 239), rgb(170, 203, 235));
   margin: 0 auto;
 }
 
 .project-text {
-  font-family: Lato;
+  font-family: 'Lato';
+  color: #555;
+  text-transform: uppercase;
   font-weight: 700;
-  font-size: 600%;
-  text-shadow: 4px 2px 2px grey;
-  margin-left: 1.5em;
+  line-height: 1;
+  letter-spacing: -3px;
+  position: relative;
+  font-size: 75px;
+  /* text-shadow: 4px 2px 2px grey; */
+  text-shadow: #EDEDED 3px 2px 0;
+  margin-bottom: 0.5em;
+  text-align: center;
 }
 
 .row {
@@ -156,6 +167,12 @@ nav.sticky {
   margin: 0 auto;
 }
 
+#project {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .box {
   text-align: center;
@@ -204,12 +221,6 @@ nav.sticky {
   flex-wrap: wrap;
   margin-bottom: 1em;
   font-family: Lato;
-}
-
-#project {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
 }
 
 
