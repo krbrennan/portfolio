@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Tillium Web', sans-serif;
+  font-family: Lato;
 }
 
 .section_1 {
@@ -34,14 +34,18 @@ span {
   justify-content: center;
   padding-top: 16%;
   text-shadow: 2px 2px 2px black;
+  /* font-family: Lobster; */
   letter-spacing: -3px;
+  font-family: 'Lato';
   font-weight: 700;
 }
 
 #type-name {
+  /* font-family: Lobster; */
   letter-spacing: -3px;
   margin: 0 auto;
   text-align: center;
+  font-family: 'Lato';
   font-weight: 700;
   color: white;
   font-size: 500%;
@@ -77,6 +81,7 @@ span {
 .nav_links li {
   float: right;
   display: inline-block;
+  /* margin-top: 0.5em; */
   align-items: center;
 }
 .nav_links li a {
@@ -106,62 +111,7 @@ nav.sticky {
 
 #about-me {
   width: 100vw;
-  min-height: 42em;
-  background-image: -ms-linear-gradient(bottom, #00357F 0%, #170075 100%);
-  background-image: -moz-linear-gradient(bottom, #00357F 0%, #170075 100%);
-  background-image: -o-linear-gradient(bottom, #00357F 0%, #170075 100%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00357F), color-stop(100, #170075));
-  background-image: -webkit-linear-gradient(bottom, #00357F 0%, #170075 100%);
-  background-image: linear-gradient(to top, #00357F 0%, #170075 100%);
-}
-
-.about {
-  padding-top: 10%;
-  width: 80%;
-}
-
-.about-picture {
-
-}
-
-.pic {
-  border-radius: 3em;
-  display: flex;
-  float: left;
-  min-height: 100%;
-  margin: 2em;
-}
-
-.about-info {
-
-}
-
-.about-position {
-  display: flex;
-  color: white;
-  float: left;
-}
-
-.name {
-  color: white;
-  font-size: 5em;
-  font-weight: 300;
-  padding-bottom: 0.3em;
-}
-
-.profession {
-  color: white;
-  font-size: 3em;
-  font-weight: 300;
-}
-
-.about-me-paragraph {
-  display: flex;
-  color: white;
-  padding: 2em 0;
-  margin: 0 auto;
-  line-height: 1.5em;
-  font-weight: 300;
+  height: 100vh;
 }
 
 
@@ -178,54 +128,99 @@ nav.sticky {
   padding-top: 6em;
   height: 100%;
   width: 100vw;
-  background-image: -ms-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
-  background-image: -moz-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
-  background-image: -o-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #BFE8FF), color-stop(100, #57A0FF));
-  background-image: -webkit-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
-  background-image: linear-gradient(to right, #BFE8FF 0%, #57A0FF 100%);
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
   margin: 0 auto;
-  padding-bottom: 4em;
-}
-
-#projects {
-  width: 80%;
-  margin: 0 auto;
-
 }
 
 .project-text {
-  font-family: 'Tillium Web', sans-serif;
+  font-family: 'Lato';
   color: #555;
-  font-weight: 300;
-  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* line-height: 1; */
+  letter-spacing: -3px;
   position: relative;
-  font-size: 5em;
+  font-size: 5rem;
+  /* text-shadow: 4px 2px 2px grey; */
   text-shadow: -2px -2px 2px #EDEDED, 2px 2px 2px #ccc;
   margin-bottom: 0.5em;
-  color: black;
+  text-align: center;
+
 }
 
-.project-title {
+.apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.box {
+  min-height: 10em;
+  max-width: 40vw;
   margin: 1em;
-  font-family: 'Tillium Web', sans-serif;
-  color: black;
+  border-radius: 20% 20%;
+  /* height: auto; */
+  /* min-height: 400px; */
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 10px 10px black;
 }
 
-.text-center {
-  margin: 1em;
-  letter-spacing: 3px;
-  font-family: 'Tillium Web', sans-serif;
-  color: black;
+.title-picture {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.project-li {
-  list-style: none;
-  color: black;
+.box-title a img {
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+  vertical-align: middle;
+  max-width: 90%;
 }
 
-hr {
-  border-color: black;
+img {
+  max-width: 90%;
+  height: auto;
+  align-self: center;
+}
+
+.box-title {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  /* order: 0; */
+  margin: 0.5em;
+  font-family: Lato;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px red;
+  font-size: 3rem;
+  border-bottom: 1px dotted black;
+  width: 100%;
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  font-family: 'Lato', 'Lobster';
+  width: 80%;
+  justify-content: center;
+}
+
+.project-pic img {
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 0.75em;
 }
 
 
@@ -251,7 +246,6 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-top: 2em;
 }
 #link {
   display: table;
@@ -281,30 +275,6 @@ i {
 
 @media only screen and (max-width: 1000px) {
   #typed {
-    margin-top: 2em;
-  }
-  .about {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  .about-picture {
-    margin: 0 auto;
-    padding-top: 0;
-}
-  .about-info {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .name {
-    margin: 0 auto;
-  }
-  .profession {
-    margin: 0 auto;
-  }
-  .about-me-paragraph {
-    text-align: center;
+    margin-top: 5em;
   }
 }
