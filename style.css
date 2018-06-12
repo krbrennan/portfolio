@@ -164,7 +164,17 @@ nav.sticky {
   font-weight: 300;
 }
 
+.resume {
+  margin: 0 auto;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
 
+.button {
+  background: red;
+  padding: 1em;
+}
 
 
 /*-----PROJECTS  ------*/
@@ -260,6 +270,7 @@ hr {
   align-content: center;
   height: 100%;
   font-size: 150%;
+  justify-content: center;
 }
 a {
   text-decoration: none;
