@@ -233,6 +233,10 @@ nav.sticky {
   list-style: none;
   color: black;
 }
+.project-title:hover {
+  color: blue;
+  cursor: pointer;
+}
 
 hr {
   border-color: black;
