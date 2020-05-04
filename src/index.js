@@ -1,12 +1,12 @@
 
 let name = {
-  strings: ['Hi I\'m Kevin '],
+  strings: ['Hi I\'m Kevin Brennan '],
   typeSpeed: 90,
   startDelay: 1000,
   showCursor: false
 }
 let occupation = {
-  strings: ['^3000 And I\'m a Web Developer '],
+  strings: ['^4000 And I\'m a Web Developer '],
   typeSpeed: 90,
   showCursor: false
 }
