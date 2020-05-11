@@ -107,6 +107,7 @@ nav.sticky {
 #about-me {
   width: 100vw;
   min-height: 42em;
+  background: rgba(192, 190, 190, 0.3);
   /* background-image: -ms-linear-gradient(bottom, rgba(0, 53, 127, 0.377) 0%, #170075 100%); */
   /* background-image: -moz-linear-gradient(bottom, rgba(0, 53, 127, 0.171) 0%, #170075 100%); */
   /* background-image: -o-linear-gradient(bottom, #00357F 0%, #170075 100%); */
@@ -115,7 +116,7 @@ nav.sticky {
 
   /* background-image: linear-gradient(to top, #00357F 0%, #170075 0%); */
 
-  background-image: linear-gradient(to top, rgba(19, 17, 126, 0.76), #3709f0bb 0%);
+  /* background-image: linear-gradient(to top, rgba(160, 158, 241, 0.76), #3709f0bb 0%); */
 }
 
 .about {
@@ -133,6 +134,7 @@ nav.sticky {
   float: left;
   min-height: 100%;
   margin: 2em;
+  max-height: 300px;
 }
 
 .about-info {
@@ -146,25 +148,25 @@ nav.sticky {
 }
 
 .name {
-  color: white;
+  color: rgb(32, 32, 32);
   font-size: 5em;
   font-weight: 300;
   padding-bottom: 0.3em;
 }
 
 .profession {
-  color: white;
+  color: rgb(32, 32, 32);
   font-size: 3em;
   font-weight: 300;
 }
 
 .about-me-paragraph {
   display: flex;
-  color: white;
+  color: rgb(32, 32, 32);
   padding: 2em 0;
   margin: 0 auto;
   line-height: 1.5em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .resume {
@@ -191,13 +193,14 @@ nav.sticky {
   padding-top: 6em;
   height: 100%;
   width: 100vw;
-  background-image: -ms-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
+  /* background-image: -ms-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
   background-image: -moz-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
   background-image: -o-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #BFE8FF), color-stop(100, #57A0FF));
   background-image: -webkit-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
-  background-image: linear-gradient(to right, #BFE8FF 0%, #57A0FF 100%);
+  background-image: linear-gradient(to right, #BFE8FF 0%, #57A0FF 100%); */
   margin: 0 auto;
+  background:
   padding-bottom: 4em;
 }
 
@@ -210,11 +213,10 @@ nav.sticky {
 .project-text {
   font-family: 'Tillium Web', sans-serif;
   color: #555;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 3px;
   position: relative;
   font-size: 5em;
-  text-shadow: -2px -2px 2px #EDEDED, 2px 2px 2px #ccc;
   margin-bottom: 0.5em;
   color: black;
 }
@@ -227,7 +229,8 @@ nav.sticky {
 
 .text-center {
   margin: 1em;
-  letter-spacing: 3px;
+  font-weight: 300;
+  /* letter-spacing: 3px; */
   font-family: 'Tillium Web', sans-serif;
   color: black;
 }
