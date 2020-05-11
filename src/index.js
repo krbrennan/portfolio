@@ -34,6 +34,10 @@ let about_section = document.getElementById('about-me');
 
 // about_projects.addEventListener("click", handleClick);
 
-about_projects.scrollIntoView({
-  behavior: 'smooth'
-});
+// about_projects.scrollIntoView({
+//   behavior: 'smooth'
+// });
+
+about_projects.scrollIntoView();
+about_projects.scrollIntoView(true);
+about_projects.scrollIntoView({behavior: "smooth"});

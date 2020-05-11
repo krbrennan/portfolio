@@ -191,6 +191,7 @@ nav.sticky {
 
 #project-showcase {
   padding-top: 6em;
+  padding-bottom: 3em;
   height: 100%;
   width: 100vw;
   /* background-image: -ms-linear-gradient(left, #BFE8FF 0%, #57A0FF 100%);
