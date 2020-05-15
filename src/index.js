@@ -6,7 +6,7 @@ let name = {
   showCursor: false
 }
 let occupation = {
-  strings: ['^4000 And I\'m a Web Developer '],
+  strings: ['^4000 And I\'m a Developer '],
   typeSpeed: 90,
   showCursor: false
 }
